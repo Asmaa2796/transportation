@@ -5,9 +5,11 @@ import App from './App';
 import 'bootstrap';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
-import '@popperjs/core';
+
 import 'jquery';
+import 'popper.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
 import 'bootstrap/dist/js/bootstrap.bundle';
 import reportWebVitals from './reportWebVitals';
 
