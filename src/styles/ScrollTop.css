@@ -1,0 +1,9 @@
+.scroll-top {
+    position: fixed;
+    bottom: 40px;
+    left: 25px;
+    cursor: pointer;
+    z-index: 999;
+    transition: all .3s ease-in-out;
+}
+.scroll-top img {width: 30px;transform: rotate(-90deg);}

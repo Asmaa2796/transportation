@@ -1,0 +1,48 @@
+footer {
+    padding: 140px 0px 40px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../images/sm.png);
+  }
+  
+  footer h5 {
+    color: #fff;
+    margin: 10px 0px;
+    font-weight: bold;
+  }
+  footer .navigation {margin-top: 20px;}
+  footer .navigation a {
+    display: block;
+    text-decoration: none;
+    color: #ffffffe0 !important;
+    margin: 5px 0px 5px 10px;
+  }
+  footer .social-links {margin-top: 20px;}
+  footer .social-links ul li {margin: 4px 0px;}
+  footer .social-links ul li i {
+      color: #fff !important;display: inline-block;width: 20px;height: 20px;text-align: center;
+    }
+  footer .social-links ul li span {display: inline-block;}
+  footer hr {background-color: #ffffff2e;}
+  footer span  {color: #e8f6f5;}
+  footer span b {color: #fff}
+.subscribe {margin-top: 15px;}
+.subscribe button {
+  background-color: #fff;
+    color: #e63946;
+    border: none;
+    margin-left: -15px;
+    margin-top: 1px;
+    height: 36px;
+    border-radius: 3px;
+    width: 37px;
+}
+@media(max-width:414px) {
+  footer {padding: 100px 0px 20px;}
+  footer h5 {font-size: 16px;}
+  footer .social-links ul li , footer .navigation a {font-size: 13px;}
+  footer span {font-size: 13px;}
+  footer input::placeholder {font-size: 13px;}
+}

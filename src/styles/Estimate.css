@@ -1,0 +1,93 @@
+.estimate {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    padding-bottom:100px;
+    clip-path: polygon(0 17%, 100% 0%, 100% 83%, 0% 100%);
+    background-image: url(../images/trans2.jpg);
+}
+.estimate::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    content: '';
+}
+.estimate .free  , .estimate form  {position: relative; margin: 140px 0px 30px 0px;}
+.estimate .free h3 {color: #fff;}
+.estimate .free p {color: rgba(238, 238, 238, 0.575);font-size: 15px;margin-top: 30px;}
+.estimate form {
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #14293394;
+}
+.estimate form input , .estimate form select , .estimate form textarea {
+    width: 100%;
+    border: 1px solid rgba(238, 238, 238, 0.384);
+    border-radius: 4px;
+    margin: 5px 0px;
+    background: none;
+    font-size: 14px;
+    padding-left: 8px;
+    color: #fff;
+}
+.estimate form input , .estimate form select {height: 44px;}
+.estimate form textarea {height: 100px;}
+.estimate form input::placeholder , .estimate form textarea::placeholder {color: #eee; font-size: 14px;}
+.estimate form select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: right 10px center;
+    height: 39px !important;
+    color: #fff !important;
+}
+.estimate .free button {
+    background-color: var(--main-color) ;
+    color: #fff;
+    border-radius: 7px;
+    padding: 12px 35px;
+    margin: 20px 0px;
+    border: none;
+    font-size: 18px;
+}
+.estimate form button {
+    background-color: var(--main-color) ;
+    color: #fff;
+    border-radius: 7px;
+    padding: 7px 25px;
+    margin: 20px 0px;
+    border: none;
+    font-size: 16px;
+}
+
+@media(max-width:414px) {
+    .estimate {
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+        margin-bottom: 25px;
+    }
+    .estimate .free, .estimate form {margin-top: 40px;}
+    .estimate form input,
+    .estimate form input::placeholder,
+    .estimate form select, .estimate form textarea
+     {font-size: 12px;}
+     .estimate form {
+        padding: 20px 5px;
+    }
+    .estimate .free button {
+        padding: 10px 24px;
+        margin: 20px 0px;
+        font-size: 15px;
+    }
+    .estimate form button {
+        padding: 5px 22px;
+        margin: 18px 0px;
+        font-size: 14px;
+    }
+}

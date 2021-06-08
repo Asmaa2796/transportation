@@ -1,0 +1,51 @@
+{
+    "about" : [
+        {
+            "ID" :  1,
+            "title": "Logistics",
+            "paragraph": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+            "image": "../images/industrial.jpg"
+        }
+    ],
+    "pricing" : [
+        {
+            "ID" : 1,
+            "image":"../images/chat.png",
+            "title":"BASIC",
+            "sup":"$47",
+            "sub":"Year",
+            "item1":"Officia quaerat eaque neque",
+            "item2":"Possimus aut consequuntur incidunt",
+            "item3":"Lorem ipsum dolor sit amet",
+            "item4":"Consectetur adipisicing elit",
+            "item5":"Dolorum esse odio quas architecto sint",
+            "button":"Buy Now"
+        },
+        {
+            "ID" : 2,
+            "image":"../images/search.png",
+            "title":"PREMIUM",
+            "sup":"$200",
+            "sub":"Year",
+            "item1":"Officia quaerat eaque neque",
+            "item2":"Possimus aut consequuntur incidunt",
+            "item3":"Lorem ipsum dolor sit amet",
+            "item4":"Consectetur adipisicing elit",
+            "item5":"Dolorum esse odio quas architecto sint",
+            "button":"Buy Now"
+        },
+        {
+            "ID" : 3,
+            "image":"../images/tag.png",
+            "title":"PROFESSIONAL",
+            "sup":"$750",
+            "sub":"Year",
+            "item1":"Officia quaerat eaque neque",
+            "item2":"Possimus aut consequuntur incidunt",
+            "item3":"Lorem ipsum dolor sit amet",
+            "item4":"Consectetur adipisicing elit",
+            "item5":"Dolorum esse odio quas architecto sint",
+            "button":"Buy Now"
+        }
+    ]
+}

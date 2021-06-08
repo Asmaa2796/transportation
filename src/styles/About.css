@@ -1,0 +1,29 @@
+.about .holder {
+    background-color: #fff;
+    box-shadow: 0px 20px 14px -12px #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .about .image {
+    text-align: center;
+    overflow: hidden;
+  }
+  .about .image img {width: 280px;margin: auto;}
+  .about .text h5 {
+    color: var(--main-color);
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+  }
+  .about .text p {
+    line-height: 1.7em;
+    color: #777;
+    font-size: 14px;
+  }
+  @media(max-width:414px) {
+    .about .text p {font-size: 13px;}
+    .about .image img {width: 215px;}
+  }

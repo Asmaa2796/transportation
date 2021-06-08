@@ -2,6 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import 'bootstrap';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import '@popperjs/core';
+import 'jquery';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

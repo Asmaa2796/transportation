@@ -1,0 +1,13 @@
+.serv {
+    padding: 20px;
+    margin: 27px 0px 12px;
+    border-radius: 6px;
+}
+.serv p {font-size: 13px;color: #888;}
+.serv h5 {color: #333;margin: 15px 0px;font-size: 16px;}
+.serv img {width: 70px;margin-top: 12px;filter: drop-shadow(7px 8px 2px #ccc);}
+
+@media(max-width:414px) {
+    .serv {margin: 0px;}
+    .serv img {width:63px;}
+}
